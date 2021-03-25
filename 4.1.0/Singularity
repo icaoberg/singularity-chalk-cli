@@ -5,7 +5,7 @@ Includecmd: no
 %labels
     AUTHOR icaoberg
     EMAIL icaoberg@psc.edu
-    WEBSITE http://www.andrew.cmu.edu/~icaoberg
+    WEBSITE http://gitlab.psc.edu/icaoberg/singularity-chalk-cli
     VERSION 4.1.0
 
 %post
