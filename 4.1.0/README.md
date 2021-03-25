@@ -16,7 +16,7 @@ bash ./build.sh
 singularity exec singularity-chalk-cli-4.1.0.sif chalk -t '{red.bold Dungeons and Dragons {~bold.blue (with added fairies)}}'
 ```
 
-![Screenshot](/images/screenshot.png)
+![Screenshot](images/screenshot.png)
 
 ## Alternative
 ```
