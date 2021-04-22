@@ -45,5 +45,5 @@ Tools included in this module are
 
 local package = "chalk-cli"
 local version = "4.1.0"
-local base    = pathJoin("/jet/home/icaoberg/singularity",package,version)
+local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)

@@ -1,11 +1,11 @@
 Bootstrap: docker
 From: alpine:edge
-Includecmd: no
 
 %labels
     AUTHOR icaoberg
     EMAIL icaoberg@psc.edu
-    WEBSITE http://gitlab.psc.edu/icaoberg/singularity-chalk-cli
+    WEBSITE http://github.com/icaoberg/singularity-chalk-cli
+    COPYRIGHT Copyright © 2021, Pittsburgh Supercomputing Center. All Rights Reserved. 
     VERSION 4.1.0
 
 %post
