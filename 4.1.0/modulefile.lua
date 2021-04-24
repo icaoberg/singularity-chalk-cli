@@ -1,38 +1,38 @@
 --
--- chalk-cli 2.0.2 modulefile
+-- chalk-cli 4.1.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
--- "Description: chalk-cli lets you easily record terminal sessions and replay them in a terminal as well as in a web browser."
+-- "Description: Terminal string styling done right."
 
 
 whatis("Name: chalk-cli")
-whatis("Version: 2.0.2")
+whatis("Version: 4.1.0")
 whatis("Category: Other")
 whatis("URL: https://www.psc.edu/resources/software")
-whatis("Description: chalk-cli lets you easily record terminal sessions and replay them in a terminal as well as in a web browser.")
+whatis("Description: Terminal string styling done right.")
 
 help([[
-chalk-cli 2.0.2
+chalk-cli 4.1.0
 ---------------
 
 Description
 -----------
-chalk-cli lets you easily record terminal sessions and replay them in a terminal as well as in a web browser.
+Terminal string styling done right.
 
 To load the module type
 
-> module load chalk-cli/2.0.2
+> module load chalk-cli/4.1.0
 
 To unload the module type
 
-> module unload chalk-cli/2.0.2
+> module unload chalk-cli/4.1.0
 
 Documentation
 -------------
 For help, type
 
-> chalk-cli --help
+> chalk --help
 
 Repository
 ----------
@@ -40,7 +40,7 @@ https://github.com/chalk-cli/chalk-cli
 
 Tools included in this module are
 
-* chalk-cli
+* chalk
 ]])
 
 local package = "chalk-cli"
