@@ -1,4 +1,5 @@
 # singularity-chalk-cli
+[![Build Status](https://www.travis-ci.com/icaoberg/singularity-chalk-cli.svg?branch=main)](https://www.travis-ci.com/icaoberg/singularity-chalk-cli)
 
 Singularity recipe for [chalk-cli](https://github.com/chalk/chalk-cli).
 
@@ -18,6 +19,16 @@ Run the script `rbuild.sh` to build image locally.
 bash ./build.sh
 ```
 
+## Installing the container on Bridges (or similar)
+Copy the
+
+* `SIF` file
+* and the `chalk-cli` script
+
+to `/opt/packages/chalk-cli/4.1.0`.
+
+Copy the file `modulefile.lua` to `/opt/modules/chalk-cli` as `4.1.0.lua`.
+
 ### Example
 ```
 singularity exec singularity-chalk-cli-4.1.0.sif chalk -t '{red.bold Dungeons and Dragons {~bold.blue (with added fairies)}}'
@@ -25,7 +36,7 @@ singularity exec singularity-chalk-cli-4.1.0.sif chalk -t '{red.bold Dungeons an
 
 ![Screenshot](images/screenshot.png)
 
-## Alternative
+## Alternative Installation
 ```
 spack install npm
 spack load npm
