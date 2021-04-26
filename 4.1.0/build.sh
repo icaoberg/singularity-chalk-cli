@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copyright © 2021 Pittsburgh Supercomputing Center.
+# All Rights Reserved.
+
 IMAGE=singularity-chalk-cli-4.1.0.sif
 DEFINITION=Singularity
 
