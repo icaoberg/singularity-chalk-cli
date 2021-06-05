@@ -10,13 +10,6 @@ From: alpine:edge
 
 %post
     apk add --update nodejs npm
-
-####################################################################################
-%appinstall chalk-cli
     npm install --global chalk-cli
 
-%apphelp chalk-cli
-    chalk-cli --help
-
-%apprun chalk-cli
-    chalk-cli "$@"
+####################################################################################
