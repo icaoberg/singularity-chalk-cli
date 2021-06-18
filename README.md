@@ -1,6 +1,10 @@
-# singularity-chalk-cli
-[![Build Status](https://www.travis-ci.com/icaoberg/singularity-chalk-cli.svg?branch=main)](https://www.travis-ci.com/icaoberg/singularity-chalk-cli)
+![Status](https://github.com/icaoberg/singularity-chalk-cli/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/icaoberg/singularity-chalk-cli)
+![forks](https://img.shields.io/github/forks/icaoberg/singularity-chalk-cli)
+![Stars](https://img.shields.io/github/stars/icaoberg/singularity-chalk-cli)
+![License](https://img.shields.io/github/license/icaoberg/singularity-chalk-cli)
 
+# singularity-chalk-cli
 Singularity recipe for [chalk-cli](https://github.com/chalk/chalk-cli).
 
 ## Building the image using the recipe
@@ -44,6 +48,6 @@ npm install -g chalk-cli
 ```
 
 ---
-Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 [icaoberg](http://www.andrew.cmu.edu/~icaoberg) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
