@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/icaoberg/singularity-chalk-cli)
 
 # singularity-chalk-cli
-<img src="https://github.com/chalk/chalk-cli/blob/main/screenshot.png?raw=true" width="631">
+<img src="https://github.com/chalk/chalk-cli/blob/main/screenshot.png?raw=true" width="50%">
 
 Singularity recipe for [chalk-cli](https://github.com/chalk/chalk-cli).
 
