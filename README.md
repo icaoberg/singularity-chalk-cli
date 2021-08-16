@@ -7,6 +7,7 @@
 
 # singularity-chalk-cli
 <img src="https://github.com/chalk/chalk-cli/blob/main/screenshot.png?raw=true" width="631">
+
 Singularity recipe for [chalk-cli](https://github.com/chalk/chalk-cli).
 
 ## Building the image using the recipe
