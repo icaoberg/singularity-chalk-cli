@@ -1,0 +1,49 @@
+--
+-- chalk-cli 5.0.1 modulefile
+--
+-- "URL: https://www.psc.edu/resources/software"
+-- "Category: Other"
+-- "Description: Terminal string styling done right."
+
+
+whatis("Name: chalk-cli")
+whatis("Version: 5.0.1")
+whatis("Category: Other")
+whatis("URL: https://www.psc.edu/resources/software")
+whatis("Description: Terminal string styling done right.")
+
+help([[
+chalk-cli 5.0.1
+---------------
+
+Description
+-----------
+Terminal string styling done right.
+
+To load the module type
+
+> module load chalk-cli/5.0.1
+
+To unload the module type
+
+> module unload chalk-cli/5.0.1
+
+Documentation
+-------------
+For help, type
+
+> chalk --help
+
+Repository
+----------
+https://github.com/chalk-cli/chalk-cli
+
+Tools included in this module are
+
+* chalk
+]])
+
+local package = "chalk-cli"
+local version = "5.0.1"
+local base    = pathJoin("/opt/packages",package,version)
+prepend_path("PATH", base)
