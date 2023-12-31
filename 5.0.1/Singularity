@@ -1,6 +1,3 @@
-# Copyright © 2022-2023 Pittsburgh Supercomputing Center.
-# All Rights Reserved.
-
 Bootstrap: docker
 From: alpine:edge
 
@@ -14,3 +11,6 @@ From: alpine:edge
 %post
     apk add --update nodejs npm
     npm install --global chalk-cli
+
+%runscript
+    chalk "$@"
